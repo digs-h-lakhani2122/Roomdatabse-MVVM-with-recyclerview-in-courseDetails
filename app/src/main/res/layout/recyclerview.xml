@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CourseNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Course Name"
+            android:textColor="#E85555"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/DurationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course Duration"
+            android:textColor="#6BDACF"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/DescriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course description"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
